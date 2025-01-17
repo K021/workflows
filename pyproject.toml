@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "workflows"
+version = "0.1.0"
+description = "workflows to ease life"
+authors = ["Jooeon Kim"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
