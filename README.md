@@ -34,3 +34,14 @@
 > poetry install
 > python unlock_pdf.py /path/to/locked.pdf password
 ```
+
+## merge_images.py
+
+이 스크립트는 여러 이미지를 하나의 이미지로 병합하는 데 사용됩니다.
+
+### 사용법
+
+```bash
+> poetry install
+> python merge_images.py 1.jpeg 2.jpeg 3.jpeg 4.jpeg -r 2 -c 2
+```
